@@ -1,0 +1,57 @@
+/* CSS Document */
+header, footer {
+	height: 150px;
+}
+header{
+	background-color: orange;
+}
+nav {
+	
+}
+
+main {
+	height: 1000px;
+}
+section {
+	float: left;
+	width: 100%;
+}
+.row1, .row2 {
+	height: auto;
+	width: inherit;
+}
+.row2 {
+	height: 500px;
+}
+.box1, .box2, .box3 {
+	float: left;
+	width: 33.3%;
+	height: 200px;
+	
+	
+}
+.box1 {
+	background-color: aliceblue;
+}
+.box2 {
+	background-color: lightblue;
+}
+.box3 {
+	background-color: lightgreen;
+
+}
+
+.side1 {
+	background-color: blue;
+	width: 50%;
+}
+.side2 {
+	background-color: red;
+	width: 50%;
+
+}
+footer {
+	/*background-color: pink;
+	float: left;
+	width: 100%;*/
+}
