@@ -1,0 +1,28 @@
+/* CSS Document */
+
+body {
+	background-color: lightblue; 
+	background-color: #21D22D;
+	color: aliceblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+ul {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: brown;
+	
+}
+
+ul li {
+	color: blue;
+	margin-left: 30px;
+}
+
+.lebron {
+	max-height: 50%;
+	max-width: 50%;
+}

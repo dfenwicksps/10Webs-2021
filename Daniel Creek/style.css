@@ -1,0 +1,81 @@
+/* CSS Document */
+body {
+	margin: 0 auto;
+}
+
+header, footer {
+	height: 100px;
+}
+
+header {
+	background-color: yellow;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	background-color: blue;
+}
+nav {
+	background-color: green;
+	height: 75px;
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+	grid-gap: 0px;
+}
+main {
+	background-color: orange;
+}
+/*section {
+	float: left;
+	width: 75%;
+}*/
+section {
+	background-color: indianred;
+}
+.section1 {
+	background-color: lightgreen;
+	float: left;
+	width: 75%;
+	height: 500px;
+}
+article {
+	background-color: lightsalmon;
+	height: 50%;
+}
+.art1 {
+	/* background-color: lightblue; */
+	background-image: url("img/coffee.jpg");
+	background-size: cover;
+	filter: grayscale(50%);
+	/* filter: blur(2px); */
+}
+.art2 {
+	
+}
+
+.overText {
+	background-color: pink;
+	height: 60%;
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	filter: opacity(75%);
+}
+
+aside {
+	float: left;
+	background-color: orangered;
+	width: 25%;
+	height: 100px;
+}
+.rTop {
+	background-image: url("img/coffee.jpg");
+	background-size: cover;
+}
+.rBottom{
+	background-color: orange;
+}
+aside:hover, article:hover {
+	background-color: yellow;
+}

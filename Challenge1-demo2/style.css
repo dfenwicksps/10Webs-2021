@@ -1,0 +1,162 @@
+/* CSS Document */
+
+body{
+    margin: 0 auto;
+}
+header,footer{
+    height:150px;
+}
+
+
+header{
+    background-color: blue;
+ 
+}
+
+nav{
+    
+}
+
+main{
+    height:600px;
+    /*display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200 200 200;*/
+    
+}
+section {
+
+}
+/*.row1, .row2, .row3 {
+	float: left;
+	height: 200px;
+	width: 100%;
+}*/
+
+.oddbox {
+	background-color: lightblue;
+	float: left;
+	height: 200px;
+	width: 33.3%;
+}
+.evenbox {
+	background-color: green;
+	float: left;
+	height: 200px;
+	width: 33.3%;
+}
+
+
+article:hover{
+    background-color:yellow;
+}
+
+.item1{
+    background-color:black;
+    text-align: center;
+    
+}
+
+.item2{
+    background-color:white;
+    text-align: center;
+}
+
+.h2{
+    color:white;
+}
+
+aside{
+    height:500px;
+    margin-bottom: inherit;
+    
+}
+
+.aleft{
+    width:50%;
+    float:left;
+    background-color:blue;
+   
+}
+
+.aright{
+    width:50%;
+    margin-left:50%;
+    background-color:red;
+}
+
+footer{
+    background-color:pink;
+    
+    
+}
+
+/* nav bar styling */
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
