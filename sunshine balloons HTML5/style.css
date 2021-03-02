@@ -19,6 +19,58 @@ footer {
 .logo{
 	padding: 10px 30px;
 }
+
+main {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	width: 100%;
+	margin-bottom: 20px 0;
+}
+section {
+	
+}
+article {
+	float: left;
+}
+.row1, .row2, .row3 {
+	float: left;
+	width: 100%;
+}
+
+.cards {
+	float: left;
+	border: 1px solid black;
+	width: 50%;
+}
+
+.col-left{
+	float: left;
+	width: 60%;
+}
+.col-right {
+	float: right;
+	width: 40%;
+}
+
+.img1{
+
+}
+
+aside {
+	width: 100%;
+	color: white;
+	background-color: black;
+	border-radius: 15px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.greentxt {
+	color: limegreen;
+	font-weight: bolder;
+}
+/* Nav Bar styling */
+
 nav a {
 	text-decoration: none;
 	color: white;
@@ -46,55 +98,4 @@ nav li a {
 /* Change the link color to dark green on hover */
 nav li a:hover {
   background-color:#333302;
-}
-main {
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-family: 'PT Sans Narrow', sans-serif;
-	width: 60%;
-	margin-bottom: 20px 0;
-}
-section {
-	
-}
-article {
-	height:300px;
-	width: 270px;
-	padding: 0 0 0 5px;
-	float: left;
-	margin-left: 30px
-}
-.row2 {
-	width: inherit;
-}
-.cards {
-	
-}
-
-.col-left{
-	float: left;
-	width: 60%;
-}
-.col-right {
-	float: right;
-	width: 40%;
-}
-
-.img1{
-  	border: 1px solid black;
-	width: 50%;
-}
-
-aside {
-	float: right;
-	width: 100%;
-	color: white;
-	background-color: black;
-	border-radius: 15px;
-	margin: 10px;
-	padding: 10px;
-}
-
-.greentxt {
-	color: limegreen;
-	font-weight: bolder;
 }

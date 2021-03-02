@@ -1,2 +1,24 @@
 /* CSS Document */
+body {
+	margin: auto 200px;
+	
+}
+
+header {
+	background-image: url("img/header.jpg");
+	background-size: cover;
+	height: 450px;
+}
+
+.boldtxt {
+	font-weight: bold;
+}
+.wid50 {
+	float: left;
+	width: 48%;
+	margin: 15px 5px;
+	background-color: white;
+	color: black;
+	align-content: center;
+}
 
