@@ -13,6 +13,10 @@ header {
 .boldtxt {
 	font-weight: bold;
 }
+
+.myimg {
+	width: 100%;
+}
 .wid50 {
 	float: left;
 	width: 48%;
@@ -22,3 +26,10 @@ header {
 	align-content: center;
 }
 
+.w3-margin {
+	margin: 30px;
+}
+
+.my-padding-left {
+	padding-left: 50px;
+}
