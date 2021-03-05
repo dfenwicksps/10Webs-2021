@@ -1,13 +1,17 @@
 /* CSS Document */
 body {
-	margin: auto 200px;
-	
+/*	margin: auto 200px;*/
+	font-size: 18px;
 }
 
 header {
 	background-image: url("img/header.jpg");
 	background-size: cover;
 	height: 450px;
+}
+footer {
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 .boldtxt {
@@ -33,3 +37,7 @@ header {
 .my-padding-left {
 	padding-left: 50px;
 }
+.my-margin {
+	margin: 0 72px;
+}
+
